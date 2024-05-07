@@ -249,3 +249,325 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 2: 'C:\Users\ANIKE
 2024.04.24 21:24:14 INFO  Shutting down server
 2024.04.24 21:24:14 INFO  shutting down Metals
 2024.04.24 21:24:14 INFO  Exiting server
+2024.04.24 21:40:14 INFO  Started: Metals version 1.3.0 in folders 'C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java' for client Visual Studio Code 1.88.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@1ec0cdd3]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@c6a8263]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1ec0cdd3]
+2024.04.24 21:40:16 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.04.24 21:40:16 INFO  Attempting to connect to the build server...
+2024.04.24 21:40:16 INFO  Running BSP server List(C:\Program Files\scala-cli-x86_64-pc-win32\scala-cli.exe, bsp, --json-options, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.scala-build\ide-options-v2.json, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala)
+2024.04.24 21:40:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\bsp.trace.json or C:\Users\ANIKET DIXIT\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.24 21:40:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1-sources.jar
+2024.04.24 21:40:24 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1-sources.jar
+2024.04.24 21:40:24 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.04.24 21:40:24 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.04.24 21:40:24 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.04.24 21:40:29 INFO  BSP server: Still downloading:
+2024.04.24 21:40:29 INFO  BSP server: https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar (82.32 %, 2047911 / 2487777)
+2024.04.24 21:40:29 INFO  BSP server: 
+2024.04.24 21:40:29 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.04.24 21:40:30 INFO  time: Connected to build server in 13s
+2024.04.24 21:40:30 INFO  Connected to Build server: scala-cli v1.2.2
+2024.04.24 21:40:31 INFO  time: Imported build in 0.17s
+2024.04.24 21:40:31 INFO  compiling java_f4dd477a3a-6cc5c7b367 (1 scala source)
+2024.04.24 21:40:31 INFO  compiling java_f4dd477a3a-6cc5c7b367 (1 scala source)
+2024.04.24 21:40:33 INFO  no build target found for C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Apr 24, 2024 9:40:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2024.04.24 21:40:47 INFO  compiling java_f4dd477a3a-6cc5c7b367 (1 scala source)
+2024.04.24 21:40:49 INFO  time: compiled java_f4dd477a3a-6cc5c7b367 in 2.21s
+2024.04.24 21:40:59 INFO  time: indexed workspace in 26s
+Apr 24, 2024 9:41:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.04.24 21:42:06 INFO  Shutting down server
+2024.04.24 21:42:06 INFO  shutting down Metals
+2024.04.24 21:42:06 INFO  Shut down connection with build server.
+2024.04.24 21:42:06 INFO  BSP server: Apr 24, 2024 9:42:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.04.24 21:42:06 INFO  BSP server: WARNING: Notification threw an exception: {
+2024.04.24 21:42:06 INFO  Exiting server
+2024.04.25 21:12:43 INFO  Started: Metals version 1.3.0 in folders 'C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java' for client Visual Studio Code 1.88.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@4c0d3932]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@40dab2be]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4c0d3932]
+2024.04.25 21:12:44 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.04.25 21:12:46 INFO  Attempting to connect to the build server...
+2024.04.25 21:12:46 INFO  Running BSP server List(C:\Program Files\scala-cli-x86_64-pc-win32\scala-cli.exe, bsp, --json-options, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.scala-build\ide-options-v2.json, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala)
+2024.04.25 21:12:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\bsp.trace.json or C:\Users\ANIKET DIXIT\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.25 21:12:52 INFO  BSP server: Starting compilation server
+2024.04.25 21:13:00 INFO  time: Connected to build server in 13s
+2024.04.25 21:13:00 INFO  Connected to Build server: scala-cli v1.2.2
+2024.04.25 21:13:00 INFO  time: Imported build in 0.26s
+2024.04.25 21:13:21 INFO  no build target found for C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.04.25 21:13:28 INFO  time: indexed workspace in 6.99s
+Apr 25, 2024 9:14:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 25, 2024 9:14:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.04.25 21:15:44 INFO  Shutting down server
+2024.04.25 21:15:44 INFO  shutting down Metals
+2024.04.25 21:15:44 INFO  BSP server: Apr 25, 2024 9:15:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.04.25 21:15:44 INFO  BSP server: WARNING: Notification threw an exception: {
+2024.04.25 21:15:44 INFO  Shut down connection with build server.
+2024.04.25 21:15:44 INFO  BSP server:   "jsonrpc": "2.0",
+2024.04.25 21:15:44 INFO  BSP server:   "method": "build/exit",
+2024.04.25 21:15:44 INFO  BSP server:   "params": null
+2024.04.25 21:15:44 INFO  BSP server: }
+2024.04.25 21:15:44 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2024.04.25 21:15:44 INFO  Exiting server
+2024.04.29 12:59:32 INFO  Started: Metals version 1.3.0 in folders 'C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java' for client Visual Studio Code 1.88.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@25472cec]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6f9200ce]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@25472cec]
+2024.04.29 12:59:35 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.04.29 12:59:36 INFO  Attempting to connect to the build server...
+2024.04.29 12:59:36 INFO  Running BSP server List(C:\Program Files\scala-cli-x86_64-pc-win32\scala-cli.exe, bsp, --json-options, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.scala-build\ide-options-v2.json, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala)
+2024.04.29 12:59:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\bsp.trace.json or C:\Users\ANIKET DIXIT\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.29 12:59:42 INFO  BSP server: Starting compilation server
+2024.04.29 12:59:50 INFO  time: Connected to build server in 14s
+2024.04.29 12:59:50 INFO  Connected to Build server: scala-cli v1.2.2
+2024.04.29 12:59:50 INFO  time: Imported build in 0.26s
+2024.04.29 12:59:58 WARN  Running javac-semanticdb failed for file:///C:/Users/ANIKET%20DIXIT/OneDrive/Desktop/college/java/multiT3.java. Output:
+
+2024.04.29 13:00:25 INFO  no build target found for C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Apr 29, 2024 1:00:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Apr 29, 2024 1:00:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2024.04.29 13:00:35 INFO  no build target found for C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\multiT3.java. Using presentation compiler with project's scala-library version: 3.3.3
+Apr 29, 2024 1:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Apr 29, 2024 1:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Apr 29, 2024 1:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Apr 29, 2024 1:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Apr 29, 2024 1:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Apr 29, 2024 1:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Apr 29, 2024 1:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Apr 29, 2024 1:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Apr 29, 2024 1:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Apr 29, 2024 1:00:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-41-193.md
+Apr 29, 2024 1:00:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-41-620.md
+Apr 29, 2024 1:00:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-42-066.md
+Apr 29, 2024 1:00:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-43-526.md
+Apr 29, 2024 1:00:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-43-843.md
+Apr 29, 2024 1:00:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-45-376.md
+2024.04.29 13:00:47 INFO  time: indexed workspace in 21s
+2024.04.29 13:00:47 WARN  no build target for: C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\multiT2.java
+2024.04.29 13:00:47 WARN  no build target for: C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\multiT3.java
+2024.04.29 13:00:47 WARN  no build target for: C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\multiT.java
+Apr 29, 2024 1:00:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-48-110.md
+2024.04.29 13:00:48 WARN  Running javac-semanticdb failed for file:///C:/Users/ANIKET%20DIXIT/OneDrive/Desktop/college/java/multiT.java. Output:
+
+2024.04.29 13:00:48 WARN  Running javac-semanticdb failed for file:///C:/Users/ANIKET%20DIXIT/OneDrive/Desktop/college/java/multiT2.java. Output:
+
+2024.04.29 13:00:47 WARN  Running javac-semanticdb failed for file:///C:/Users/ANIKET%20DIXIT/OneDrive/Desktop/college/java/multiT3.java. Output:
+
+Apr 29, 2024 1:00:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-48-941.md
+Apr 29, 2024 1:00:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-49-617.md
+Apr 29, 2024 1:00:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-52-528.md
+Apr 29, 2024 1:00:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-55-825.md
+Apr 29, 2024 1:00:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-56-372.md
+Apr 29, 2024 1:00:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-00-56-712.md
+Apr 29, 2024 1:01:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-02-191.md
+Apr 29, 2024 1:01:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-03-246.md
+Apr 29, 2024 1:01:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-03-448.md
+Apr 29, 2024 1:01:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-03-637.md
+Apr 29, 2024 1:01:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-06-206.md
+Apr 29, 2024 1:01:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-06-440.md
+Apr 29, 2024 1:01:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-07-477.md
+2024.04.29 13:01:12 WARN  Running javac-semanticdb failed for file:///C:/Users/ANIKET%20DIXIT/OneDrive/Desktop/college/java/threadP.java. Output:
+
+Apr 29, 2024 1:01:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-12-842.md
+Apr 29, 2024 1:01:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-13-242.md
+2024.04.29 13:01:20 WARN  Running javac-semanticdb failed for file:///C:/Users/ANIKET%20DIXIT/OneDrive/Desktop/college/java/threadPool.java. Output:
+
+Apr 29, 2024 1:01:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-21-272.md
+Apr 29, 2024 1:01:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-21-511.md
+2024.04.29 13:01:47 WARN  Running javac-semanticdb failed for file:///C:/Users/ANIKET%20DIXIT/OneDrive/Desktop/college/java/threadPoolDynamic.java. Output:
+
+Apr 29, 2024 1:01:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-47-760.md
+Apr 29, 2024 1:01:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-49-053.md
+Apr 29, 2024 1:01:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-53-376.md
+Apr 29, 2024 1:01:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-53-723.md
+Apr 29, 2024 1:02:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-01-59-988.md
+Apr 29, 2024 1:02:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-00-598.md
+Apr 29, 2024 1:02:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-00-876.md
+Apr 29, 2024 1:02:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-12-331.md
+Apr 29, 2024 1:02:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-21-395.md
+Apr 29, 2024 1:02:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-24-815.md
+Apr 29, 2024 1:02:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 173
+Apr 29, 2024 1:02:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-28-931.md
+Apr 29, 2024 1:02:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-29-078.md
+Apr 29, 2024 1:02:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-30-150.md
+Apr 29, 2024 1:02:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-37-792.md
+Apr 29, 2024 1:02:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-48-218.md
+Apr 29, 2024 1:02:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-49-062.md
+Apr 29, 2024 1:02:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-49-430.md
+Apr 29, 2024 1:02:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-50-321.md
+Apr 29, 2024 1:02:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-02-58-164.md
+Apr 29, 2024 1:03:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-18-212.md
+C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\Threads.java:13: error: unmappable character (0x9D) for encoding windows-1252
+    				This thread is called â€œmainâ€?
+    				                               ^
+2024.04.29 13:03:24 WARN  Running javac-semanticdb failed for file:///C:/Users/ANIKET%20DIXIT/OneDrive/Desktop/college/java/Threads.java. Output:
+
+Apr 29, 2024 1:03:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-24-409.md
+Apr 29, 2024 1:03:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-27-538.md
+Apr 29, 2024 1:03:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-28-408.md
+Apr 29, 2024 1:03:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-29-035.md
+Apr 29, 2024 1:03:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-31-205.md
+Apr 29, 2024 1:03:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-32-454.md
+Apr 29, 2024 1:03:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-33-629.md
+Apr 29, 2024 1:03:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-35-477.md
+Apr 29, 2024 1:03:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-40-137.md
+Apr 29, 2024 1:03:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-41-696.md
+Apr 29, 2024 1:03:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-42-347.md
+Apr 29, 2024 1:03:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-03-56-228.md
+Apr 29, 2024 1:04:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-07-222.md
+Apr 29, 2024 1:04:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-09-617.md
+Apr 29, 2024 1:04:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-10-031.md
+Apr 29, 2024 1:04:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-10-340.md
+Apr 29, 2024 1:04:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-10-537.md
+Apr 29, 2024 1:04:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-11-397.md
+Apr 29, 2024 1:04:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-13-472.md
+Apr 29, 2024 1:04:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-16-506.md
+Apr 29, 2024 1:04:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-20-499.md
+Apr 29, 2024 1:04:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-24-299.md
+Apr 29, 2024 1:04:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-29-100.md
+Apr 29, 2024 1:04:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\.reports\metals-full\2024-04-29\r_compiler-error_13-04-37-172.md
+2024.04.29 13:04:43 INFO  Shutting down server
+2024.04.29 13:04:43 INFO  shutting down Metals
+2024.04.29 13:04:43 INFO  Shut down connection with build server.
+2024.04.29 13:04:43 INFO  Exiting server
+2024.04.30 11:27:49 INFO  Started: Metals version 1.3.0 in folders 'C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java' for client Visual Studio Code 1.88.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@622b6b88]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1e4fbfbe]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@622b6b88]
+2024.04.30 11:27:50 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.04.30 11:27:52 INFO  Attempting to connect to the build server...
+2024.04.30 11:27:52 INFO  Running BSP server List(C:\Program Files\scala-cli-x86_64-pc-win32\scala-cli.exe, bsp, --json-options, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.scala-build\ide-options-v2.json, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala)
+2024.04.30 11:27:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\bsp.trace.json or C:\Users\ANIKET DIXIT\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.30 11:28:04 INFO  BSP server: Starting compilation server
+Apr 30, 2024 11:28:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Apr 30, 2024 11:28:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Apr 30, 2024 11:28:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2024.04.30 11:28:20 INFO  time: Connected to build server in 27s
+2024.04.30 11:28:20 INFO  Connected to Build server: scala-cli v1.2.2
+2024.04.30 11:28:20 INFO  time: Imported build in 0.36s
+2024.04.30 11:28:30 INFO  no build target found for C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.04.30 11:28:41 INFO  time: indexed workspace in 11s
+2024.04.30 11:28:41 WARN  no build target for: C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\threadP.java
+2024.04.30 11:31:11 WARN  Running javac-semanticdb failed for file:///C:/Users/ANIKET%20DIXIT/OneDrive/Desktop/college/java/threadP.java. Output:
+
+2024.04.30 12:07:15 INFO  Shutting down server
+2024.04.30 12:07:15 INFO  shutting down Metals
+2024.04.30 12:07:15 INFO  Shut down connection with build server.
+2024.04.30 12:07:15 INFO  Exiting server
+2024.04.30 12:16:02 INFO  Started: Metals version 1.3.0 in folders 'C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java' for client Visual Studio Code 1.88.1.
+2024.04.30 12:16:02 INFO  time: initialize in 0.13s
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@67313439]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@65bc1c78]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@67313439]
+2024.04.30 12:16:04 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.04.30 12:16:05 INFO  Attempting to connect to the build server...
+2024.04.30 12:16:05 INFO  Running BSP server List(C:\Program Files\scala-cli-x86_64-pc-win32\scala-cli.exe, bsp, --json-options, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.scala-build\ide-options-v2.json, C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala)
+2024.04.30 12:16:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\.metals\bsp.trace.json or C:\Users\ANIKET DIXIT\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.30 12:16:16 INFO  time: Connected to build server in 10s
+2024.04.30 12:16:16 INFO  Connected to Build server: scala-cli v1.2.2
+2024.04.30 12:16:16 INFO  time: Imported build in 0.16s
+2024.04.30 12:16:26 INFO  no build target found for C:\Users\ANIKET DIXIT\OneDrive\Desktop\college\java\first.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.04.30 12:16:33 INFO  time: indexed workspace in 6.62s
+2024.04.30 12:28:39 INFO  Shutting down server
+2024.04.30 12:28:39 INFO  shutting down Metals
+2024.04.30 12:28:40 INFO  Shut down connection with build server.
+2024.04.30 12:28:40 INFO  BSP server: Apr 30, 2024 12:28:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.04.30 12:28:39 INFO  Exiting server
