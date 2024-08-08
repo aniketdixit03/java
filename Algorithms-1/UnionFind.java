@@ -112,9 +112,7 @@ i = id[i];
 return i;
 }
 
-
-
-
 */
+//How to perform implementation of weighted quick union and path compression in Java to solve dynamic connectivity problems?
 
 
