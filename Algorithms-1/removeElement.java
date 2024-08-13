@@ -22,7 +22,7 @@ public class removeElement {
             int[] nums = {0, 1, 2, 1, 3, 3, 5, 1};
             int val = 1;
             int r = removeElement(nums, val);
-            for(int o=0; o<r+1; o++){
+            for(int o=0; o<r; o++){
                 System.out.print(nums[o]+" ");
             }
         }
