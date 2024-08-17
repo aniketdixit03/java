@@ -49,3 +49,47 @@ public class BufferedReaderUsage {
             e.printStackTrace();
         }
 */
+
+/*The hasNext() method in the Scanner class is used to check 
+if there is another token available in the input. 
+A token is a sequence of characters that can be separated by delimiters 
+(such as spaces, newlines, etc.). */
+
+/*
+
+System.out.println("Enter some words (type 'exit' to stop):");
+        
+        // Loop continues while there are more tokens available
+        while (sc.hasNext()) {
+            String input = sc.next();  // Read the next token
+            
+            if ("exit".equalsIgnoreCase(input)) {
+                break;  // Exit the loop if 'exit' is entered
+            }
+            
+            System.out.println("You entered: " + input);
+        }
+
+Variants of hasNext()
+
+hasNextInt(): Checks if the next token is an integer.
+hasNextDouble(): Checks if the next token is a double.
+hasNextLine(): Checks if there is another line available.
+ 
+ */
+
+/*
+Note the following code to convert an array of characters to a string:
+
+  @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        Node current = first;
+        while (current != null) {
+            sb.append(current.item).append(" ");
+            current = current.next;
+        }
+        return sb.toString();
+    }
+
+*/
