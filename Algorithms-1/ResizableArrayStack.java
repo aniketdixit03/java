@@ -5,6 +5,7 @@ public class ResizableArrayStack<T> {
     
         @SuppressWarnings("unchecked")
         public ResizableArrayStack() {
+            //example of casting and usage of generics in java
             stack = (T[]) new Object[INITIAL_CAPACITY];
             size = 0;
         }
