@@ -1,5 +1,5 @@
 import java.util.*;
-public class L14_15_16 {
+public class BasicSorting {
     public static void main(String[] args) {
         //focuses on 4 operations: GET | SET | CLEAR | UPDATE using bitmasking concepts
         //getting the 3rd bit of n = 0101 
@@ -12,6 +12,7 @@ public class L14_15_16 {
         //     System.out.println("bit was 1");
         // }
         //rest of the operations can be performed easily as well   
+
         //3 basic sorting  concepts: 
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
@@ -22,7 +23,7 @@ public class L14_15_16 {
         }
         //A. Bubble Sort
         // for(int a=0; a<x; a++){
-        //     for(int j=0; j<x-1-a; j++){
+        //     for(int j=1; j<=x-1-a; j++){
         //         if(arr[j]>arr[j+1]){
         //             //swap
         //             int temp = arr[j+1];
@@ -40,7 +41,7 @@ public class L14_15_16 {
         //         if(arr[j]<arr[l])
         //             l = j;}
         //     int temp = arr[a];
-        //     arr[a]=arr[l];
+    //     arr[a]=arr[l];           
         //     arr[l]=temp;
         //     }
         //C. Insertion Sort
